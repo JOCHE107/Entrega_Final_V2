@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <main>
+            <form id="formularioContacto" action="https://formspree.io/f/xkgnnebq" method="POST">
+                <fieldset>
+                    <legend>Reserva de Cumpleaños</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="Nombre" id="nombre" placeholder="Ingrese Nombre">   
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="Apellido" id="apellido" placeholder="Ingrese Apellido">
+                    <br><br>
+                    <label for="reserva">Día de reserva (dd/mm/yyyy)</label>
+                    <input type="date" name="Reserva" id="reserva">
+                    <label for="invitados">Cantidad de Invitados</label>
+                    <input type="number" name="Cantidad de Invitados" id="invitados" placeholder="Ingrese Número de Invitados">
+                    <br><br>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="Telefono" id="telefono" placeholder="Ingrese su WA">
+                    <label for="instagram">Instagram</label>
+                    <input type="text" name="Instagram" id="instagram" placeholder="@...">
+                    <br><br>
+                    <label for="cumpleaños">Fecha de Cumpleaños</label>
+                    <input type="date" name="Cumpleaños" id="cumpleaños">
+                    <p>Festejaste tu cumpleaños el año pasado acá?
+                        <input type="radio" name="sino" value="si">Sí
+                        <input type="radio" name="sino" value="no" checked>No
+                    </p>
+                    <br><br>
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+            <p id="mensajeFormulario" style="color: red; font-weight: bold;"></p> <!-- Contenedor para el mensaje -->
+        </main>
+    </header>
+    <script src="formulario.js"></script>
+</body>
+</html>

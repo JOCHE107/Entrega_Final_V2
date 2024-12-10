@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.anav {
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 2.0rem;
+    font-weight: 100;
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.anav_principal {
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 3.0rem;
+    font-weight: 100;
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.tx_main {
+    margin: 0 0.625rem;
+}
+
+h3 {
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav {
+    border: 0.2rem solid green;
+    padding-top: 2%;
+    background-image: url(img/fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 93.75rem;
+    position: relative;
+}
+
+._menu {
+    border: 0.2rem solid green;
+    padding-top: 30%;
+    background-image: url('img/gin.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 56.25rem;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+._nosotros {
+    border: 0.2rem solid green;
+    padding-top: 30%;
+    background-image: url('img/corona.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 56.25rem;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+._cumpleaños {
+    border: 0.2rem solid green;
+    padding-top: 20%;
+    background-image: url(img/cumpleañ.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 56.25rem;
+    position: relative;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+._ubicacion {
+    border: 0.2rem solid green;
+    padding: 5%;
+    height: 31.25rem;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container_seccion {
+    background-color: green;
+    padding: 5% 10%;
+    border-radius: 0.3rem;
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+.inicio_container {
+    text-align: center;
+    padding: 15%;
+    font-size: 2.5vw;
+    background-size: cover;
+}
+
+.inicio_texto {
+    border: 0.25rem solid green;
+    border-radius: 0.3rem;
+    margin: 5%;
+    padding: 5%;
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    background: green;
+    opacity: 0.6;
+}
+
+p {
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+._footer {
+    padding-inline: 10%;
+    padding-top: 5%;
+    background: green;
+    height: 5rem;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos_footer {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.a_footer {
+    text-decoration: none;
+}
+
+._footer i {
+    font-size: 1.875rem;
+    color: whitesmoke;
+}
+
+.btn-flotante {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 1000;
+}
+
+.container_flex {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+    flex-wrap: nowrap;
+}
+
+.tx_main_eventos {
+    margin: 0 5rem;
+    text-align: center;
+}
+
+.seccion {
+    border: 0.2rem;
+}
+
+.container_flex {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+    flex-wrap: nowrap;
+}
+
+.tx_main_eventos {
+    margin: 0 5rem;
+    text-align: center;
+}
+
+.item_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.eventos_a {
+    color: green;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img_eventos {
+    width: 75%;
+}
+
+/* Menú hamburguesa */
+.hamburger-menu {
+    display: none; /* Ocultar el menú hamburguesa en pantalla normal */
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-container {
+    display: none; /* Ocultar el menú de navegación normal en pantallas pequeñas */
+    flex-direction: column;
+}
+
+
+/* TODO lo que es esstilo para el contenedor de productos */
+#productos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajustar el reponsive desde aca */
+    gap: 16px;
+    padding: 16px;
+}
+
+.producto-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: black;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.producto-card h4 {
+    font-size: 1.2rem;
+    color: green;
+    margin-bottom: 8px;
+}
+
+.producto-card p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: whitesmoke;
+}
+
+.producto-card button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.producto-card button:hover {
+    background-color: darkgreen;
+}
+
+.carrito-container {
+    border: 1px solid #ccc;
+    padding: 16px;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.carrito-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.carrito-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.carrito-item button:hover {
+    background-color: darkred;
+}
+
+
+@media (max-width: 768px) {
+    nav, ._menu, ._nosotros, ._cumpleaños, ._ubicacion, .seccion, ._footer {
+        padding: 5%;
+        border-width: 2%;
+        height: auto;
+    }
+
+    .tx_main_eventos, p, .a_footer, .eventos_a {
+        font-size: 100%; 
+    }
+    h3 {
+        font-size: 200%; 
+    }
+
+    .btn-flotante {
+        width: 10%;
+    }
+
+    .container_flex, .text_container_seccion, .inicio_container {
+        padding: 3%; 
+    }
+
+    ._cumpleaños img, ._menu img {
+        width: 20%;
+        height: auto;
+    }
+
+    ._ubicacion iframe {
+        width: 100%;
+        height: 50%;
+    }
+
+    .seccion a {
+        font-size: 50%;
+    }
+
+    ._footer i {
+        font-size: 100%;
+    }
+
+    .menu-container {
+        display: none; /* Ocultar el menú en pantallas pequeñas */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px; /* Ancho del menú */
+        height: 100%;
+        background-color: #333; /* Fondo oscuro */
+        flex-direction: column; /* Asegura que los elementos estén en fila */
+        justify-content: flex-start;
+        padding-top: 20px;
+        z-index: 1000;
+        animation: slideIn 0.3s ease-out;
+    }
+
+    /* Animación para el deslizamiento */
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .menu-container a {
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        border-bottom: 1px solid #444;
+    }
+
+    .hamburger-menu {
+        display: block; /* Mostrar el ícono del menú hamburguesa */
+    }
+
+    /* Cuando el menú tiene la clase "active", se muestra */
+    .nav.active .menu-container {
+        display: flex;
+    }
+
+    /* Achico la letra del nav cuando sale */
+    .anav {
+        font-size: 35%; 
+    }
+
+    .anav_principal {
+        font-size: 90%; 
+    }
+}
+
+/* Mostrar el menú en pantallas grandes */
+@media (min-width: 769px) {
+    .menu-container {
+        display: flex; /* Mostrar el menú en pantallas grandes */
+        flex-direction: row; /* En pantallas grandes, los elementos se alinean en fila */
+    }
+}
